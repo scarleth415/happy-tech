@@ -1,0 +1,406 @@
+	
+header{
+	background-color: #F78347;
+	
+
+}
+
+body{
+	font-family: "josefin-sans";
+	font-size: 14px;
+	color: #808080;
+}
+#hero{
+	background-image: url(file:///C:/Users/Alejandro%20Caballero/Documents/landing%20page/img/Apple_iphone_11-water-resistant-091019.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding:200px 0;
+}
+#hero h1,
+.carousel-caption h1{
+	color: #fff;
+	font-size: 60px;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+#hero h1 span,
+.carousel-caption h1 span{
+	display: block;
+}
+#hero h4,
+.carousel-caption h4{
+	color: #fff;
+	font-size: 20px; 
+	margin-bottom: 100px;	
+}
+.btn-hero{
+	color:#FB8021;
+	padding:20px 20px;
+	text-transform: uppercase;
+	font-size: 20px;
+	border-radius: 0;
+	border:0;
+	margin-top: -80px;
+}
+.btn-hero:hover{
+	background-color:#FC6C2C ;
+	color:#FFFFFF
+}
+
+
+
+.navbar-brand{
+	font-family: "josefin-sans";
+
+	font-size: 40px;
+}
+.title{
+	text-align: center;
+	Color: #000;
+	font-family: "josefin-sans";
+	font-size: 40px;
+	font-weight: 300;
+	margin: 20px;
+	
+}
+#oshine p{
+	font-family: "josefin-sans";
+	color: currentColor;
+	font-size: 15px; 
+	margin-bottom: 30px;
+}
+
+.btn-anaranjado{
+	background-color:#FFFFFF; 
+	text-transform: uppercase; 
+	padding: 16px 37px; 
+	color: #FC6C2C; 
+	font-size: 11px; 
+	letter-spacing: 2px;
+	border-radius: 0;
+	font-family: "josefin-sans";
+	color:#FC6C2C;
+}
+.btn-anaranjado:hover{
+	background-color: #FC6C2C; 
+	border-color: #FC6C2C;
+	border-style:solid; 
+	border-width: 2px;
+}
+.btn-block{
+	background-color:#FFFFFF; 
+	text-transform: uppercase; 
+	padding: 16px 37px; 
+	color: #F86D1A; 
+	font-size: 20px; 
+	letter-spacing: 2px;
+	border-radius: 0;
+	font-family: "josefin-sans";
+	color:#F86D1A;
+}
+.btn-block:hover{
+	background-color: #F86D1A; 
+	border-color: #FFFFFF;
+	border-style:solid; 
+	border-width: 2px;
+}
+
+.negro{
+	margin-right: 200px;
+	padding-right:200px;
+}
+.cuadro{
+	margin-left: 350px;
+	padding: -100px -50px;
+}
+.imagenes{
+	width:-100px -200px;
+	height: -100px -200px;
+}
+
+.botones{
+	margin-bottom: 50px;
+}
+
+.negro{
+	margin-left: 15px;
+	
+}
+
+.titulem{
+	font-family: "josefin-sans";
+	color:#FFFFFF;
+	font-weight: 400px;
+	text-align: center;
+	margin-left: 20px;
+	font-size: 80px;
+	letter-spacing: 0.5px;
+	margin-bottom: 50px;
+}
+
+#slides h1{
+	font-family: 'josefin-sans';
+	color:#F78347;
+    font-size: 80px;
+}
+#slides h4{
+	font-family: 'josefin-sans';
+	color:#F78347;
+	font-size: 30px;
+}
+#products h5{
+	font-family: "josefin-sans";
+	text-align: center;
+	padding-bottom: 20px;
+	color:#FFFFFF;
+}
+
+#products{
+	background-color: #F86D1A;
+}
+#products p{
+	font-family: "josefin-sans";
+	color:#FFFFFF;
+	font-weight: 100;
+	text-align: center;
+	font-size: 35px;
+	letter-spacing: 0.5px;
+	margin-bottom: 90px;
+margin-top: -50px
+}
+
+#columnas{
+	text-align: center; 
+	background-color: #F4F4F4;
+	padding: 70px;
+}
+
+#columnas h3{
+	text-transform: uppercase; 
+	font-size: 14px;
+	text-align: center;
+}
+#columnas p{
+	font-size: 15px;
+	text-align: center;
+}
+
+#hero-page p{
+	align-content:center;
+	margin-right: 30px 
+}
+.carousel-caption{
+	top: 40%;
+}
+
+
+.work-info{
+	position: relative;
+	overflow: hidden;
+}
+
+.layer-text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #F86D1A;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.3s ease-out;
+	z-index: 100;
+}
+
+.work-info .bg-green{
+	position: absolute;
+	top: 0;
+	background-color: #F5651B;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+}
+.work-info:hover .layer-text,
+.work-info:hover .bg-green{
+	opacity: 1;
+	transition: all 0.3s ease-in;
+}
+
+.layer-text a,
+.cintillo a{
+	color: #fff;
+}
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	background-color:#fff;
+	z-index: 100;
+}
+#content{
+	background-color:#F86D1A
+}
+.cintillo{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background-color: #F96D24;
+	color: #fff;
+	text-align: center;
+	z-index: 100;
+	opacity: 0;
+}
+
+.cintillo h5{
+	margin-bottom: 0;
+}
+
+.work-info:hover .cintillo{
+	opacity: 1;
+	transition: all	0.3s ease-in;
+}
+.layer-icon{
+	position: absolute;
+	top:0;
+	right: 10px;
+	color: #fff;
+}
+
+.bg-black{
+	background-color: #F78347;
+	
+}
+
+.layer-square{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	padding: 10px;
+}
+
+.layer-square .bg-text{
+	background-color: #F77D20;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+.layer-square .layer-text{
+	background-color: transparent;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.layer-square:hover .bg-text{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+}
+
+#hero-page{
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+
+
+
+.hero-page h3{
+	font-size: 14px;
+	font-style: italic;
+}
+
+.hero-page h1{
+	font-size: 60px;
+	font-weight: 400;
+}
+
+.hero-page p{
+	font-size: 20px;
+	color: #F57B32;
+}
+
+
+#hero-page .overlay{
+	position: inherit;
+}
+
+#hero-page .container{
+	padding: 12% 0;
+}
+
+#content{
+	padding: 7% 0;
+	
+}
+
+
+footer{
+	backgraund-color:#EBEBEB;
+	padding: 5% 0;
+}
+
+footer h4{
+	color: #222;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	
+}
+
+.services i{
+	font-size: 30px;
+	color: #F78347;
+	text-align: center;
+}
+
+.services h4{
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+/* tablet */
+@media (max-width:768px){
+	
+	.carousel-caption{
+		top: 25%;
+	}
+	
+	
+	
+}
+
+/* Celular */
+@media (max-width:480px){
+	
+	.carousel-caption h1{
+		font-size: 36px;
+	}
+	
+	.carousel-caption h4{
+		display: none;
+	}
+	
+	.carousel-caption .btn{
+		display: none;
+	}
+}
